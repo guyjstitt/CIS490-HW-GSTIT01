@@ -53,6 +53,7 @@
             android:layout_height="100dp"
             android:id="@+id/rockImage"
             android:src="@drawable/georock"
+
             android:scaleType="centerInside"
             android:layout_alignTop="@id/linearLayout"
             android:layout_alignParentLeft="true"
