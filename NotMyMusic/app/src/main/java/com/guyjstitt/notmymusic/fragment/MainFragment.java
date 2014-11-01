@@ -8,16 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.Toast;
 
-import com.guyjstitt.notmymusic.MainActivity;
 import com.guyjstitt.notmymusic.R;
 import com.guyjstitt.notmymusic.SongAdapter;
 import com.guyjstitt.notmymusic.SongDetailActivity;
-import com.guyjstitt.notmymusic.model.Song;
-import com.guyjstitt.notmymusic.service.MockMusicService;
-
-import java.util.List;
 
 /**
  * Created by gstitt on 10/31/14.
@@ -37,7 +31,6 @@ public class MainFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
 
         return view;
     }

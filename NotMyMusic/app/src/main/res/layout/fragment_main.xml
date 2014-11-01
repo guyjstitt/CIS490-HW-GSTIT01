@@ -17,5 +17,6 @@
         android:layout_centerHorizontal="true"
         android:numColumns="auto_fit"
         android:verticalSpacing="5dp"
-        android:horizontalSpacing="5dp"/>
+        android:horizontalSpacing="5dp"
+        android:stretchMode="columnWidth"/>
 </RelativeLayout>
